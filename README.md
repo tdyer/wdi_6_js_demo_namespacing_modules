@@ -132,6 +132,7 @@ Pair with a classmate and read the code in `app/js/spotify.js`. Trace through th
 1. Are variables inside nested functions available from the outside? Are variabls from outer functions available to inner functions?
 1. Which data and methods are exposed for public use? Which are kept private for use inside the module?
 1. Which line(s) in the code allow us to use `Spotify.Song(//...)` in our application code?
+
     ```js
     shake = Spotify.Song("Shake It Off", "Taylor Swift", "1989");
     ```
