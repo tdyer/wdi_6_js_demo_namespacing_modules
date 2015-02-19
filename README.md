@@ -69,7 +69,7 @@ Immediately-Invoked Function Expressions (IIFEs) are anonymous function that are
 ```js
 (function () {
     // ...
-})():
+})();
 ```
 
 The parends on the last line cause the function to be immediately invoked. This creates a new scope, isolating any inside our IIFE from the global namespace. This is useful for many reasons, but we can't use it later unless we assign it.
@@ -77,7 +77,7 @@ The parends on the last line cause the function to be immediately invoked. This 
 ```js
 var MyModule = (function () {
     // ...
-})():
+})();
 ```
 
 Since we have a new scope, anything defined inside the scope is not accessible from the outside.
@@ -87,7 +87,7 @@ var MyModule = (function () {
     var myFunction = function () {
         return "Hello from inside a closure!";
     }
-})():
+})();
 
 // How would you even access myFunction from here?
 ```
@@ -110,7 +110,7 @@ var MyModule = (function () {
     return {
         greet: myFunction
     };
-})():
+})();
 
 MyModule.greet(); //=> "Hello from inside a closure!"
 var hi = MyModule.greet;
