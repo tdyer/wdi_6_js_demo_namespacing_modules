@@ -136,7 +136,7 @@ Pair with a classmate and read the code in `app/js/spotify.js`. Trace through th
     shake = Spotify.Song("Shake It Off", "Taylor Swift", "1989");
     ```
 
-Finally,make the `display` and `search` methods work. Tests have been written for you, as has some code. 
+Finally, make the `display` and `search` methods work. Tests have been written for you, as has some code. 
 
 ## Additional Resources
 
