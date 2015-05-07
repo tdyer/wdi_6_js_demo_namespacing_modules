@@ -6,7 +6,8 @@
 
 By the end of this, students should be able to:
 
-- Explain immediately-invoked functions expressions (IIFEs)
+- Create a namespace for your application.
+- Use a immediately-invoked functions expressions (IIFEs) to implement encapsulation and privacy.
 - Recall the four steps to creating modules (also called namespaces) in JavaScript
 - Write functions that return objects
 - Recall why functions inside JS modules are "private"
